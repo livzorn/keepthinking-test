@@ -3,7 +3,20 @@ body {
   margin: 0;
 }
 
+h1, h2, h3, h4 {
+  font-family: "DINPro Bold";
+}
+
+p {
+  font-family: "DINPro Regular";
+}
+
 @font-face {
-  font-family: "Oxygen";
-  src: local("Oxygen"), url(./assets/fonts/Oxygen/Oxygen-Regular.ttf) format("truetype");
+  font-family: "DINPro Regular";
+  src: local("DINPro Regular"), url(./assets/fonts/DINPro Regular.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "DINPro Bold";
+  src: local("DINPro Bold"), url(./assets/fonts/DINPro Bold.otf) format("truetype");
 }
