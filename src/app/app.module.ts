@@ -10,7 +10,6 @@ import { SectionArtistsComponent } from './section-artists/section-artists.compo
 import { SectionChannelComponent } from './section-channel/section-channel.component';
 import { HeadingComponent } from './heading/heading.component';
 import { CardNewsComponent } from './card-news/card-news.component';
-import { SectionHeaderComponent } from './section-header/section-header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchComponent } from './search/search.component';
 import { MenuComponent } from './menu/menu.component';
@@ -26,7 +25,6 @@ import { LegalInfoComponent } from './legal-info/legal-info.component';
     SectionChannelComponent,
     HeadingComponent,
     CardNewsComponent,
-    SectionHeaderComponent,
     NavbarComponent,
     SearchComponent,
     MenuComponent,

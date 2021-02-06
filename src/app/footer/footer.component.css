@@ -1,0 +1,21 @@
+.contact-links {
+  display: flex;
+}
+
+.contact-links a {
+  margin-right: 40px;
+  font-family: "DINPro Bold";
+  color: #2C2C2C;
+}
+
+.social-media img {
+  height: 40px;
+  margin-left: 16px;
+  opacity: 50%;
+}
+
+address {
+  line-height: 8px;
+  font-style: normal;
+  margin-top: 60px;
+}

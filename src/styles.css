@@ -5,6 +5,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: "DINPro Bold";
+  color: #2C2C2C;
 }
 
 h4 {
@@ -14,11 +15,14 @@ h4 {
 p {
   font-family: "DINPro Regular";
   font-size: 24px;
+  color: #363636;
 }
 
 a {
   font-family: "DINPro Regular";
   font-size: 24px;
+  text-decoration: none;
+  color: #363636;
 }
 
 @font-face {
@@ -29,4 +33,9 @@ a {
 @font-face {
   font-family: "DINPro Bold";
   src: local("DINPro Bold"), url(./assets/fonts/DINPro Bold.otf) format("truetype");
+}
+
+.flexed-apart {
+  display: flex;
+  justify-content: space-between;
 }
