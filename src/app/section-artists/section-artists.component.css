@@ -18,5 +18,9 @@ li {
 }
 
 li:not(:last-child) {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+li:hover {
+  text-decoration: underline;
 }
