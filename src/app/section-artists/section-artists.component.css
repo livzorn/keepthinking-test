@@ -1,0 +1,22 @@
+.img-sm {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+ul {
+  column-count: 3;
+  column-gap: 80px;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-family: "DINPro Regular";
+  font-size: 24px;
+  color: #676767;
+}
+
+li:not(:last-child) {
+    margin-bottom: 8px;
+}

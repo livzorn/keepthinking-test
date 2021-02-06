@@ -6,6 +6,7 @@ body {
 h1, h2, h3, h4 {
   font-family: "DINPro Bold";
   color: #2C2C2C;
+  margin: 0;
 }
 
 h4 {
@@ -16,6 +17,7 @@ p {
   font-family: "DINPro Regular";
   font-size: 24px;
   color: #363636;
+  margin: 0;
 }
 
 a {
@@ -38,4 +40,8 @@ a {
 .flexed-apart {
   display: flex;
   justify-content: space-between;
+}
+
+.add-margin {
+  margin: 64px 0;
 }
