@@ -3,7 +3,16 @@ body {
   margin: 0;
 }
 
-h1, h2, h3, h4 {
+h1 {
+  font-family: "DINPro Regular";
+  font-size: 56px;
+  color: #363636;
+  letter-spacing: 8px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2, h3, h4 {
   font-family: "DINPro Bold";
   color: #2C2C2C;
   margin: 0;

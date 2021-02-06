@@ -8,7 +8,6 @@ import { FooterComponent } from './footer/footer.component';
 import { SectionNewsComponent } from './section-news/section-news.component';
 import { SectionArtistsComponent } from './section-artists/section-artists.component';
 import { SectionChannelComponent } from './section-channel/section-channel.component';
-import { HeadingComponent } from './heading/heading.component';
 import { CardNewsComponent } from './card-news/card-news.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchComponent } from './search/search.component';
@@ -23,7 +22,6 @@ import { LegalInfoComponent } from './legal-info/legal-info.component';
     SectionNewsComponent,
     SectionArtistsComponent,
     SectionChannelComponent,
-    HeadingComponent,
     CardNewsComponent,
     NavbarComponent,
     SearchComponent,
