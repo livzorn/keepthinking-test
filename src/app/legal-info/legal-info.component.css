@@ -1,5 +1,20 @@
 .footer-dark {
-  height: 80px;
   width: 100%;
+  box-sizing: border-box;
   background-color: #404040;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 64px;
+}
+
+.footer-dark p {
+  margin: 0;
+  color: #858585;
+}
+
+.footer-dark a {
+  color: #F9F9F9;
+  text-decoration: none;
+  margin-left: 64px;
 }
