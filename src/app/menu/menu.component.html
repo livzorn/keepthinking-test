@@ -1,1 +1,11 @@
-<p>menu works!</p>
+<div class="flexed-apart">
+  <div [hidden]="isShowDiv" id="nav-menu">
+    <a href=""><h4>Exhibitions</h4></a>
+    <a href=""><h4>Events</h4></a>
+    <a href=""><h4>Artists</h4></a>
+    <a href=""><h4>Press</h4></a>
+    <a href=""><h4>Contact</h4></a>
+  </div>
+
+  <a (click)=openMenu()><span class="lnr lnr-menu"></span></a>
+</div>

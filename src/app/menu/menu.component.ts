@@ -12,4 +12,9 @@ export class MenuComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  isShowDiv = false;
+
+  openMenu() {
+    this.isShowDiv = !this.isShowDiv;
+  }
 }

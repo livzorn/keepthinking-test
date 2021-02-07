@@ -1,0 +1,10 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+
+nav span {
+  margin-left: 24px;
+}

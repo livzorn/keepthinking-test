@@ -1,0 +1,27 @@
+.lnr {
+  color: #131313;
+  font-size: 40px;
+}
+
+#nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.lnr-menu {
+  position: relative;
+}
+
+.lnr-menu:click {
+
+}
+
+#nav-menu {
+  background: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #E4E4E4;
+  margin-right: 16px;
+  position: absolute;
+  top: 0px;
+  right: 32px;
+}

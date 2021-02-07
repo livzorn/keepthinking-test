@@ -2,6 +2,7 @@
   width: 100%;
   padding: 60px;
   box-sizing: border-box;
+  position: relative;
 }
 
 hr {
@@ -9,3 +10,8 @@ hr {
   margin: 40px 0;
 }
 
+app-navbar {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+}
