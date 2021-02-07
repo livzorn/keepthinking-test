@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+h1, h2, h3, h4, p {
+  line-height: 40px;
+}
+
 h1 {
   font-family: "DINPro Regular";
   font-size: 56px;
@@ -51,6 +55,6 @@ a {
   justify-content: space-between;
 }
 
-.add-margin {
+main {
   margin: 64px 0;
 }

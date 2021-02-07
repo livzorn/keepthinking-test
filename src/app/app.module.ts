@@ -30,7 +30,7 @@ import { LegalInfoComponent } from './legal-info/legal-info.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
