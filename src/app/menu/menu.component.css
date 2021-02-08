@@ -3,12 +3,12 @@
   font-size: 40px;
 }
 
-#nav-menu a:hover {
-  text-decoration: underline;
-}
-
 .lnr-menu {
   position: relative;
+}
+
+#nav-menu a:hover {
+  text-decoration: underline;
 }
 
 #nav-menu {
