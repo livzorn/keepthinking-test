@@ -24,3 +24,20 @@ li:not(:last-child) {
 li:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 850px) {
+  .img-sm {
+    width: 350px;
+    height: 350px;
+    margin: 40px auto;
+  }
+  .responsive-flex {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 550px) {
+  ul {
+    column-count: 2;
+  }
+}
