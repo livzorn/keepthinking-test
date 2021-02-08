@@ -11,10 +11,6 @@
   position: relative;
 }
 
-.lnr-menu:click {
-
-}
-
 #nav-menu {
   background: white;
   padding: 8px 24px;
@@ -24,4 +20,10 @@
   position: absolute;
   top: 0px;
   right: 32px;
+}
+
+@media (max-width: 850px) {
+  .lnr {
+    font-size: 30px;
+  }
 }

@@ -26,4 +26,8 @@ app-navbar {
   .container-page {
     padding: 30px;
   }
+  app-navbar {
+    top: 30px;
+    right: 30px;
+  }
 }
