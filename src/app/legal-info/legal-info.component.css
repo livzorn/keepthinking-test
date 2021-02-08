@@ -9,10 +9,32 @@
 .footer-dark p {
   margin: 0;
   color: #858585;
+  line-height: 20px;
 }
 
 .footer-dark a {
   color: #F9F9F9;
   text-decoration: none;
   margin-left: 64px;
+}
+
+@media (max-width: 900px) {
+  .footer-dark {
+    padding: 28px;
+  }
+  .footer-dark p, a {
+    font-size: 16px;
+  }
+  .footer-dark a {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer-dark p, a {
+    font-size: 14px;
+  }
+  .footer-dark a {
+    margin-left: 18px;
+  }
 }

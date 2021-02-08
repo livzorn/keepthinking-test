@@ -19,3 +19,12 @@ address {
   font-style: normal;
   margin-top: 60px;
 }
+
+@media (max-width: 800px) {
+  .contact-links a {
+    margin-right: 20px;
+  }
+  .social-media img {
+    height: 30px;
+  }
+}
