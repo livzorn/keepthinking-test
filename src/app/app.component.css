@@ -1,6 +1,6 @@
 .container-page {
   width: 100%;
-  padding: 60px;
+  padding: 60px 15vw;
   box-sizing: border-box;
   position: relative;
 }
@@ -14,4 +14,16 @@ app-navbar {
   position: absolute;
   top: 60px;
   right: 60px;
+}
+
+@media (max-width: 1200px) {
+  .container-page {
+    padding: 60px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container-page {
+    padding: 30px;
+  }
 }

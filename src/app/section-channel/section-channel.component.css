@@ -23,8 +23,20 @@ figcaption h4 {
 
 .video-caption summary {
   width: 55%;
+  margin-left: 24px;
 }
 
 .video-caption {
   margin-top: 24px;
+}
+
+@media (max-width: 700px) {
+  .video-caption summary {
+    width: 100%;
+    margin: 16px 0;
+  }
+
+  .video-caption p {
+    line-height: 30px;
+  }
 }

@@ -1,19 +1,19 @@
 .img-sm {
-  width: 350px;
-  height: 350px;
+  width: 21vw;
+  height: 21vw;
   object-fit: cover;
 }
 
 ul {
   column-count: 3;
-  column-gap: 80px;
+  column-gap: 32px;
   list-style-type: none;
   padding: 0;
 }
 
-li {
+li a {
   font-family: "DINPro Regular";
-  font-size: 24px;
+  font-size: 20px;
   color: #676767;
 }
 

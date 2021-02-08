@@ -12,4 +12,9 @@ export class SearchComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  shown = true;
+
+  displaySearch() {
+    this.shown = !this.shown;
+  }
 }

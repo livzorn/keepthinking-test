@@ -3,3 +3,14 @@
   font-size: 40px;
   margin-right: 24px;
 }
+
+input {
+  margin-right: 12px;
+  width: 200px;
+  border: 1px solid #ABABAB;
+  border-radius: 4px;
+  padding: 8px;
+  font-family: "DINPro Regular";
+  font-size: 18px;
+  color: #363636;
+}
